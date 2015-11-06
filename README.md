@@ -32,4 +32,4 @@ Running in Docker
 ----------------
 
 `docker build -t varnish-proxy .`
-`docker run -e AWS_ACCESS_KEY=key-id -e AWS_ACCESS_SECRET=secret -p 8000:8000 varnish-proxy Service:varnish Environment:test`
+`docker run -e AWS_ACCESS_KEY=key-id -e AWS_SECRET_KEY=secret -p 8000:8000 varnish-proxy Service:varnish Environment:test`
